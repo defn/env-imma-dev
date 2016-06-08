@@ -7,4 +7,4 @@ variable "az_names" {}
 
 variable "nat_cidrs" {}
 
-variable "remote_bucket_state" {}
+variable "bucket_remote_state" {}
