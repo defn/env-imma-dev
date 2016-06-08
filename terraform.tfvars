@@ -1,3 +1,5 @@
+bucket_remote_state = "imma-remote-state"
+
 vpc_name = "imma-dev"
 
 vpc_cidr = "172.31.0.0/16"
