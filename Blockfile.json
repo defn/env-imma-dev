@@ -1,6 +1,5 @@
 {
   "require": [
-    "wtf",
     "env-imma"
   ]
 }
