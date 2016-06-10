@@ -6,14 +6,12 @@ module "imma" {
   source = "../env-imma"
 
   provider_region = "${var.provider_region}"
-
-  vpc_name = "${var.vpc_name}"
-  vpc_cidr = "${var.vpc_cidr}"
-
-  az_count = "${var.az_count}"
-  az_names = "${var.az_names}"
-
   bucket_remote_state = "${var.bucket_remote_state}"
   context_org = "${var.context_org}"
   context_env = "${var.context_env}"
+
+  az_count = "${var.az_count}"
+
+  vpc_name = "${var.vpc_name}"
+  vpc_cidr = "${var.vpc_cidr}"
 }
