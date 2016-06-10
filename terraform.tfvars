@@ -4,6 +4,7 @@ context_env = "dev"
 
 provider_region = "us-west-1"
 
+az_count = 2
 az_names = "us-west-1b us-west-1c"
 
 vpc_cidr = "172.31.0.0/16"
