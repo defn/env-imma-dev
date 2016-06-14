@@ -1,7 +1,9 @@
 variable "bucket_remote_state" { }
-variable "context_org"         { }
-variable "context_env"         { }
-variable "vpc_name"            { }
+variable "context_org" { }
+variable "context_env" { }
+variable "vpc_name" { }
+variable "vpc_cidr" { }
+variable "az_count" { }
 
 provider "aws" { }
 
