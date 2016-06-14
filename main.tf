@@ -1,5 +1,9 @@
-provider "aws" {
-}
+variable "bucket_remote_state" { }
+variable "context_org"         { }
+variable "context_env"         { }
+variable "vpc_name"            { }
+
+provider "aws" { }
 
 module "imma" {
   source = "../env-imma"
@@ -12,4 +16,8 @@ module "imma" {
 
   vpc_name = "${var.vpc_name}"
   vpc_cidr = "${var.vpc_cidr}"
+}
+
+output "vpc_id" {
+  value = "${module.imma.vpc_id}"
 }
