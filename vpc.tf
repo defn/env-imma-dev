@@ -1,1 +1,1 @@
-../module-aws-vpc/vpc.tf
+../env-xxx/vpc.tf
