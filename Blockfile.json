@@ -1,6 +1,6 @@
 {
   "require": [
     "wtf",
-    "env-imma"
+    "module-aws-env"
   ]
 }
