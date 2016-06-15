@@ -1,5 +1,6 @@
 {
   "require": [
-    "env-xxx"
+    "env-xxx",
+    "env-imma-global"
   ]
 }
