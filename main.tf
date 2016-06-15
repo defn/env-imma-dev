@@ -1,6 +1,6 @@
 provider "aws" { }
 
-module "env" {
+module "imma" {
   source = "../module-aws-env"
 
   bucket_remote_state = "${var.bucket_remote_state}"
@@ -14,5 +14,5 @@ module "env" {
 }
 
 output "vpc_id" {
-  value = "${module.env.vpc_id}"
+  value = "${module.imma.vpc_id}"
 }
