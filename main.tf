@@ -7,8 +7,6 @@ module "imma" {
   context_org = "${var.context_org}"
   context_env = "${var.context_env}"
 
-  az_count = "${var.az_count}"
-
   vpc_name = "${var.vpc_name}"
   vpc_cidr = "${var.vpc_cidr}"
 }
